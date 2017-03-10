@@ -1,0 +1,10 @@
+--- dnssecjava-dnssecjava-1.1.3/src/main/java/org/jitsi/dnssec/validator/ValidatingResolver.java.orig
++++ dnssecjava-dnssecjava-1.1.3/src/main/java/org/jitsi/dnssec/validator/ValidatingResolver.java
+@@ -1257,7 +1257,6 @@
+      * @param query The query to send
+      * @param listener The object containing the callbacks.
+      * @return An identifier, which is also a parameter in the callback
+-     * @throws UnsupportedOperationException Always
+      */
+     public Object sendAsync(Message query, ResolverListener listener) {
+         throw new UnsupportedOperationException("Not implemented");
